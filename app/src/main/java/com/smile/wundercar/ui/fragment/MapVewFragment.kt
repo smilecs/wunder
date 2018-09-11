@@ -21,7 +21,7 @@ import com.smile.wundercar.ui.VehicleViewModel
 import kotlinx.android.synthetic.main.fragment_map_view.*
 
 
-class MapvVewFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
+class MapVewFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
 
     private var markerList: List<Marker>? = null
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
