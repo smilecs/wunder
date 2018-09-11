@@ -7,7 +7,7 @@ import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentStatePagerAdapter
 import android.support.v7.app.AppCompatActivity
 import com.smile.wundercar.R
-import com.smile.wundercar.ui.fragment.MapvVewFragment
+import com.smile.wundercar.ui.fragment.MapVewFragment
 import com.smile.wundercar.ui.fragment.VehicleFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
             override fun getItem(position: Int): Fragment {
                 return when (position) {
                     0 -> VehicleFragment()
-                    else -> MapvVewFragment()
+                    else -> MapVewFragment()
                 }
             }
 
