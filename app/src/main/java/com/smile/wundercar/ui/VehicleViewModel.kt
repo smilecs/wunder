@@ -4,7 +4,7 @@ import android.arch.lifecycle.ViewModel
 import com.smile.wundercar.repo.VehicleRepository
 
 class VehicleViewModel : ViewModel() {
-    val vehicleRepository = VehicleRepository()
+    private val vehicleRepository = VehicleRepository()
 
     fun getVehicles() = vehicleRepository.getVehicleData()
 }
