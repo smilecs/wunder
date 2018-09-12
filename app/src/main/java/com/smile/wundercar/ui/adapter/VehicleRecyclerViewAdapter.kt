@@ -1,4 +1,4 @@
-package com.smile.wundercar.ui.fragment
+package com.smile.wundercar.ui.adapter
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater

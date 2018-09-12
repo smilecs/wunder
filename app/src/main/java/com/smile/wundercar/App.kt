@@ -1,7 +1,5 @@
 package com.smile.wundercar
 
-import android.content.Context
-
 class App : android.app.Application() {
     override fun onCreate() {
         super.onCreate()
@@ -11,8 +9,5 @@ class App : android.app.Application() {
     companion object {
         private lateinit var appInstance: App
         fun getsInstance(): App = appInstance
-
-        val appContext: Context
-            get() = appInstance.applicationContext
     }
 }
